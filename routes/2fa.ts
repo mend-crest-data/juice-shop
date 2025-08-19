@@ -20,6 +20,7 @@ otplib.authenticator.options = {
   window: 1
 }
 
+
 async function verify (req: Request, res: Response) {
   const { tmpToken, totpToken } = req.body
 
