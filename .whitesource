@@ -3,13 +3,13 @@
     "configMode": "AUTO",
     "configExternalURL": "",
     "projectToken": "",
-    "baseBranches": ["prod". "stg", "dev"]
+    "baseBranches": ["prod", "stg", "dev"]
   },
   "scanSettingsSAST": {
     "enableScan": true,
     "scanPullRequests": true,
     "incrementalScan": true,
-    "baseBranches": ["prod". "stg", "dev"],
+    "baseBranches": ["prod", "stg", "dev"],
     "snippetSize": 10
   },
   "checkRunSettings": {
