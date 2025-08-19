@@ -11,6 +11,7 @@ import {
   type Sequelize
 } from 'sequelize'
 
+
 class Captcha extends Model<
 InferAttributes<Captcha>,
 InferCreationAttributes<Captcha>
