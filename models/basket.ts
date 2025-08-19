@@ -26,6 +26,7 @@ InferCreationAttributes<Basket>
   declare Products?: NonAttribute<ProductModel[]>
 }
 
+
 const BasketModelInit = (sequelize: Sequelize) => {
   Basket.init(
     {
